@@ -49,8 +49,8 @@ Objective: now being introduced to HTML without any styling, show the use case a
 - Class/ID Selectors
 - Hover States
 
-## 6. Backend + Frontend
-Objective: students will now have an understanding of how to pass data to and from their Express application. Students will also understand how to build a basic HTML/CSS webpage. Bringing these together, students will make a simple GET route that now returns HTML (server side rendering) instead of plain data. This is the basics of the web.
+## 6. Backend + Frontend + MVC
+Objective: students will now have an understanding of how to pass data to and from their Express application. Students will also understand how to build a basic HTML/CSS webpage. Bringing these together, students will make a simple GET route that now returns HTML (server side rendering) instead of plain data. This is the basics of the web. Model View Controller will be introduced as a way to interact with objects and data.
 - Hosting HTML/CSS inside of an express app
 - Passing data from a controller to a view
 - Returning a view from a route
