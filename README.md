@@ -8,7 +8,7 @@ Understand the fundamentals of a fullstack web application. Subjects include the
 5. CSS
 6. Frontend + Backend
 7. Forms
-8. Databases (potentially)
+8. Databases
 9. Final Project
 ### Lab:
 Using their unqiue credentials and an API developmenet enviroment (see [Postman](https://www.getpostman.com/)), students would complete weekly assignments interacting with a production API. Activities would include basic CRUD operations and the eventual integration into their project.
@@ -37,74 +37,59 @@ Objective: introduce the idea of sending requests and receiving responses over H
 - How to return different status codes
 
 ## 4. HTML
-Objective: having understood the ability to send and receive data over their Express server, HTML will be introduced as a way to send structure content as data.
+Objective: having understood the ability to send and receive data over their Express server, HTML will be introduced as a way to send structure content as data. Pages will be built outside of the application using a text editor.
 - Ties together routes, requests, and responses with HTML
 - Tags (HTML, BODY, P, A, IMG, DIV, SPAN)
 - Classes + IDs
 - How to structure a paage
 
-- HTML
-    - Use HTTP language throughout to create mental pathways
-    - Tags
-        - html
-        - body
-        - p
-        - a
-        - etc
-    - Classes and IDs
-    - How to layout a page 
+## 5. CSS
+Objective: now being introduced to HTML without any styling, show the use case and benefits of CSS and how you can modify HTML for better presentation. Pages will be built outside of the application using a text editor.
+- Styling Options
+- Class/ID Selectors
+- Hover States
 
-- CSS
-    - Class selectors
-    - ID selectors 
-    - Hover states
+## 6. Backend + Frontend
+Objective: students will now have an understanding of how to pass data to and from their Express application. Students will also understand how to build a basic HTML/CSS webpage. Bringing these together, students will make a simple GET route that now returns HTML (server side rendering) instead of plain data. This is the basics of the web.
+- Hosting HTML/CSS inside of an express app
+- Passing data from a controller to a view
+- Returning a view from a route
 
-- Tie together backend + frontend
-    - How to host HTML/CSS inside of an express app
-    - How to return the view from a route 
-        - Learning objective: To realize that hosting statically and hosting with SSR doesn't look/feel any different 
+## 7. Forms
+Objective: students are now able to build and return different webpages through their Express application. Students are also familiar with making simple post requests to their application from Topic 3. Forms will be introduced as the browsers way of making POST requests to an application. This will also introduce the new HTML tag of a <form> and the types of inputs allowed.
+- Form Tags
+- Action + Method Attributes in Form Tags
+- Submitting Forms
+- Input Types (Number, Text, Textarea, Select)
 
-- Forms
-    - Action + Method attributes in <form>
-        - Tie back into the same concepts of HTTP requests/responses
-    - Submit 
-    - Input Types
-        - Number
-        - Text
-        - Textarea 
-        - Select 
+### Forms Part 2:
+Students will then be expected to inspect the data upon form submission and make a decision based on the data. The method will then return a new view with specified data.
+- Receive Data
+- Modify Data
+- Return Response View with Data
 
-- How do forms connect to the backend?
-    - Submitting a form 
-    - Inspecting the data upon submission 
-    - Acting on the data
-        - Returning a new view 
-        - Returning the data
+## 8. Databases
+Objective: present databases as a way to persist data throughout an application. This will make it possible for students to build more complicated sequences. Each student will be given credentials to their own private database.
+- Students given private database (EC2 instance with login credentials)
+- Migration Basics
+- Introduction of Models (no relationships)
+- Using the ORM or Raw SQL Queries
+- Using database data within views
 
----After this point, it's unclear if the rest of the material will fit into the timeline---
+## 9. Final Project
+Objective: students should be able to build a personal "profile" page. This will feature their picture and basic facts about themselves such as hometown, favorite books, songs, animals, etc. Information will be stored on their database and passed to their view. Students should be able to edit and delete data from within their page.
 
-- Databases
-    - Students are given their own Database
-        - EC2 instance 
-        - Each user gets a database with their name 
-        - Every user 
-    - Connecting to Express models 
-    - How to use the ORM
-    - Migrations
-
-- Final project 
-    - Design a profile page 
-    - Should include tables for:
-        - Favorite books
-        - Favorite songs 
-        - Favorite animals 
-    - All tables are editable 
-        - delete 
-        - create 
-    - Should also contain inputs for:
-        - Name
-        - Email 
-        - Age
-        
-- What's out there - React + Vue and where it falls. MVC 
-
+## Other Topics, a plethora of other things that can **now** be taught or explained:
+- React + Vue: show the use cases for this and how a virtual dom can benefit users (why reload the entire page?! It all makes sense when you just spent 3 months making painstaking webpages).
+- Frontend Javascript/JQuery: adding interactivity without React + Vue
+- Bootsrap: why write your own styling? Use professional styles from pro's with one line of code.
+- MVC: unsure if this would be presented throughout this course, but tough on the thinking behind this.
+- Relational Databases/ORMS: how can these be utilized with complex business applications
+- Test Driven Development: building robust applications
+- Web Hosting: going from local development to production servers
+- Queues: offloading intensive tasks to background workers
+- Caching: making use of Redis and the browser to increase page loads
+- CDNs: distributing content around the world 
+- AWS/Cloud Services: utilizing AWS and other services to host every part of your stack in the cloud
+- Git Management: how to work with a larger team on Git
+- Agile Development Methods
