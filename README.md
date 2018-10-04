@@ -11,7 +11,7 @@ Understand the fundamentals of a fullstack web application. Subjects include the
 8. Databases
 9. Final Project
 ### Lab:
-Using their unqiue credentials and an API developmenet enviroment (see [Postman](https://www.getpostman.com/)), students would complete weekly assignments interacting with a production API. Activities would include basic CRUD operations and the eventual integration into their project.
+Using their unqiue credentials and an API developmenet enviroment (see [Postman](https://www.getpostman.com/)), students would complete weekly assignments interacting with a production API. Activities would include basic CRUD operations and the eventual integration into their project. This would simulatenously provide an introduction to a database that will be covered in Topic 8.
 
 ## 1. HTTP Requests
 Objective: understand the basic types of web requests used to communicate. Main types are GET, POST, PUT, DELETE, HEAD, PATCH, OPTIONS.
